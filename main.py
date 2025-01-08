@@ -5,29 +5,32 @@ df_bank = pd.read_csv(r'C:\Users\rpani\workspace\p_datasci\01_bank\dados\UCI_ML_
 
 if __name__ == "__main__":
     
-    # Verificando estrutura da base
-    print(df_bank.head())
+    # # Verificando estrutura da base
+    # print(df_bank.head())
 
-    # Tipos de dados
-    print(df_bank.dtypes)
+    # # Tipos de dados
+    # print(df_bank.dtypes)
 
-    # Informações dos dados
-    print(df_bank.info())
+    # # Informações dos dados
+    # print(df_bank.info())
 
-    # Quantidade de linhas e colunas
-    print(df_bank.shape)
+    # # Quantidade de linhas e colunas
+    # print(df_bank.shape)
 
-    # Nomes das colunas
-    print(df_bank.columns)
+    # # Nomes das colunas
+    # print(df_bank.columns)
 
-    # Quantidade de valores nulos
-    print(df_bank.isnull().sum())
+    # # Quantidade de valores nulos
+    # print(df_bank.isnull().sum())
 
-    # Verificando detalhes de uma coluna específica
-    print(df_bank['age'].describe())
+    # # Verificando detalhes de uma coluna específica
+    # print(df_bank['age'].describe())
     
-    # Valores únicos de idade
-    print(f'Valores únicos de idade: {df_bank['age'].nunique()}')
+    # # Valores únicos de idade
+    # print(f'Valores únicos de idade: {df_bank['age'].nunique()}')
 
+    # Valores únicos de profissão
+    # print(f'Valores únicos de profissão: {df_bank['job'].nunique()}')
 
+    print(df_bank.columns)
 
